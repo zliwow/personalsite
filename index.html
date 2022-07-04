@@ -1,128 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial0scale=1.0"
-        <title>Andrew's Portfolio Website</titile>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
-        
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/5ebbac5289.js" crossorigin="anonymous"></script>
-        
-        
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <!-- <img src="img/resize.jpg" alt=""> -->
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Skills</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                </ul>
-        </header>
-        
-        <!-- Intro -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Andrew Li</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">I love writing and programing.</br> Learning is my passion.</p>
-            <img src="img/aboutme.jpg" alt="" class="intro__img">
-        </section>
-        
-        
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Write</h3>
-                    <p>Years of rigorous academic research and writing have sharpend my aptitude for writing. I specialize my writings in history, anthropology, humanity and international relation. </p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>Code</h3>
-                    <p>Coding and programming are what I always wanted to do since I was a kid. I have been practice these in my free time. Now that I have finished my school, I get to have more time to pursue my interest in world of Computer Science.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>Learn</h3>
-                    <p>Learning is something that motivates me on daily basis. I love learning, it makes me a better person and enjoy the process of obtaining new knowledge.</p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-        
-        
-        <!-- About Me -->
-        <section class="about-me" id="about">
-            <header>
-            <h2 class="section__titile section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">
-                Writer & developer based in Seattle</p>
-            <div class="about-me__body">
-                <p>Thanks for continue viewing my site! I spent most of my teenager and early adult years in New England, It made me love the cold weather. My first job was in Finland, and the work trips allowed me to visit most countries in the Schengen Area. I enjoy working with people from various cultural backgrounds, and that led me to the internship at the UN. My experience at the UN granted me valuable insights into how NGOs operate. I also obtained the A1 certificate in German because it helped with communicating with Commerzbank. </p>
-                <p>I'm now learning to code. The lifestyle is great and I love that this career pushes me to always learn new skills. It's a new experience and I love it.</p>
-            </div>
-            
-            <img src="img/resize.jpg" height="300"  alt="Andrew at Harvard graduation" class="about-me__img">
-            </header>
-        </section>
-        
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title">My Works</h2>
-            <p class="section__subtitle">My Writings, Coding Projects and Certificates</p>
-            
-            <div class="portfolio">
-                <a href="portfolio-item1.html#writing-samples" class="portfolio__item">
-                    <img src="img/writing.png"  height="450" width="500" alt="" class="portfolio__img">
-                </a>
-                
-                <a href="portfolio-item2.html#coding-samples" class="portfolio__item">
-                    <img src="img/coding.jpg" height="450" width="500" alt="" class="portfolio__img">
-                </a>
-                <a href="portfolio-item3.html#certificates" class="portfolio__item">
-                    <img src="img/certificate.jpg" height="450" width="500" alt="" class="portfolio__img">
-                </a>
-            </div>
-        </section>
-        
-        
-        
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <a href="mailto:zliwow@hotmail.com" class="footer__link">andrewzihaoli@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/andrew-li-000a05202/">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/zliwow">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </li>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial0scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&family=Work+Sans:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ebbac5289.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- <img src="img/resize.jpg" alt=""> -->
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
-        </footer>
-                
-        
-        <script src="js/index.js"></script>
-        
-        
-    </body>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Andrew Zihao Li</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">I love writing and programing.</br> Learning is my
+            passion.</p>
+        <img src="img/aboutme.jpg" alt="" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Write</h3>
+                <p>Years of rigorous academic research and writing have sharpened my aptitude for writing.
+                    I specialize my writings in history, anthropology, humanity, and international relation. </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Code</h3>
+                <p>Coding and programming are what I have always wanted to do since I was a kid. So I have been
+                    practicing these
+                    in my free time. Now that I have finished school, I have more time to pursue my interest
+                    in the world of Computer Science.</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Learn</h3>
+                <p>Learning is something that motivates me daily. I love learning, and it makes me a better person.
+                    I enjoy the process of obtaining new knowledge.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <header>
+            <div>
+                <h2 class="section__titile section__title--about">Who I am</h2>
+            </div>
+            <div class="about-me__body">
+                <p>I spent most of my teenage and early adult years in New England. There I went to high school in CT
+                    and graduated from Southern New Hampshire University in Manchester, NH. Between semesters, I landed
+                    my internship in Finland, working with a bio-fuel company. The work trips allowed me to visit most
+                    countries in the Schengen Area. Naturally, I enjoy working with people from various cultural
+                    backgrounds, which got me an internship at the UN. I also obtained an A1 certificate in German to
+                    establish smooth communication with Commerzbank. My experience of working with European cultures led
+                    me to extend my studies into European History. In 2020, I was accepted into Harvard to further my
+                    history research. </p>
+                <p>I'm now learning to code. The lifestyle is great and I love that this career pushes me to always
+                    learn new skills. It's a new experience and I love it.</p>
+            </div>
+
+            <img src="img/resize.jpg" height="300" alt="Andrew in Leavenworth" class="about-me__img">
+        </header>
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Works</h2>
+        <p class="section__subtitle">My Writings, Coding Projects, and Certificates</p>
+
+        <div class="portfolio">
+            <a href="portfolio-item1.html#writing-samples" class="portfolio__item">
+                <img src="img/writing.jpg" height="450" alt="" class="portfolio__img">
+            </a>
+
+            <a href="portfolio-item2.html#coding-samples" class="portfolio__item">
+                <img src="img/coding.jpg" height="450" alt="" class="portfolio__img">
+            </a>
+            <a href="portfolio-item3.html#certificates" class="portfolio__item">
+                <img src="img/certificate.jpg" height="450" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:zliwow@hotmail.com" class="footer__link">andrewzihaoli@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/andrew-li-000a05202/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/zliwow">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+
+</body>
+
 </html>
